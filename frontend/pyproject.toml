@@ -1,0 +1,14 @@
+[project]
+name = "stock-advisor-frontend"
+version = "0.1.0"
+description = "Streamlit frontend for the Stock Advisor app"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "streamlit>=1.46.1",
+    "requests>=2.32.4",
+    "plotly==6.2.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["app"]
